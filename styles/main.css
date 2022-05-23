@@ -1,0 +1,36 @@
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background: #262626;
+}
+
+#row-1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#row-2 {
+  margin-top: 100px;
+}
+#row-2 p {
+  text-align: justify;
+}
+
+#row-3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#row-3 .card {
+  height: 470px;
+  transition: all ease 0.5s;
+}
+#row-3 .card:hover {
+  transition: all ease 0.5s;
+  box-shadow: rgba(62, 60, 61, 0.8) 0px 2px 8px 0px;
+}
+#row-3 .card img {
+  height: 250px;
+  object-fit: cover;
+}

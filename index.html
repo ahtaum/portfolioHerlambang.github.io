@@ -4,134 +4,129 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="variasi.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    
     <title>My Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="styles/main.css">
 
   </head>
   <body>
 
-    <div class="container my-3">
-        <div class="text-center">
-            <img src="img/poto.jpg" class="rounded-circle shadow-lg p-2 mb-5 bg-body" id="poto">
-            <h4 class="text-break fs-3 lh-lg font-monospace">Judith Caesarino Herlambang</h4>
-            <p class="fw-lighter fs-5 lh-lg font-monospace">Junior Web Programmer</p>
-        </div>
-    </div>
+    <section id="row-1" class="my-5 text-light">
+        <div class="container text-center">
+            <img src="img/poto.jpg" alt="profile" class="img-fluid w-25 rounded-circle" />
+            <h1 class="display-4 mt-3">Judith Caesarino Herlambang</h1>
+            <p class="lead">Junior Web Developer</p>
 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <h3 class="my-5 fs-2"><i class="bi bi-moon-stars"></i> About Me</h3>
-                <div class="col-sm-6">
-                    <p class="text-break fs-3 lh-lg font-monospace">" hai nama saya Judith Herlambang, saya sangat menyukai dunia programming dan sangat antusias mempelajari teknologi baru. "</p>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item"><i class="bi bi-linkedin fs-5 lh-lg font-monospace"> linkedin.com/in/adit-herlambang-218b89204</i></li>
-                          <li class="list-group-item"><i class="bi bi-github fs-5 lh-lg font-monospace"> https://github.com/ahtaum</i></li>
-                          <li class="list-group-item"><i class="bi bi-envelope-fill fs-5 lh-lg font-monospace"> aditalmahdi@gmail.com</i></li>
-                        </ul>
-                      </div>
-                </div>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/judith-herlambang-218b89204/" target="_blank" class="fs-2">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/ahtaum" target="_blank" class="px-3 fs-2">
+                    <i class="bi bi-github"></i>
+                </a>
             </div>
         </div>
     </section>
 
-    <section id="portfolio">
+    <section id="row-2" class="text-light">
         <div class="container">
             <div class="row">
-                <h3 class="my-5 fs-2"><i class="bi bi-moon-stars"></i> My Portfolio</h3>
-                <div class="col-sm-6">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="img/template1.PNG" class="d-block w-100">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="img/template2.PNG" class="d-block w-100">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="img/template3.PNG" class="d-block w-100">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                            <p class="card-text text-break fs-5 lh-lg font-monospace my-3">Template Siakad STMIK Akakom Yogyakarta menggunakan Framework Css Bootstrap 4</p>
-                            <a href="https://ahtaum.github.io/template-siakadAkakom.github.io/" class="btn btn-primary font-monospace" target="blank">Buka</a>
-                        </div>
+
+                <div class="col-lg-8 col-md-8">
+                    <h3>Tentang</h3>
+                    <p class="fs-4">" hai nama saya Judith Herlambang, saya sangat menyukai dunia programming dan sangat antusias mempelajari teknologi baru. "</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 mt-lg-0 mt-3">
+                    <div class="education">
+                        <h3 class="mb-4">Pendidikan</h3>
+                        <p>2014 - 2017</p>
+                        <h5>SMK Islamic Center Cirebon</h5>
+                        <hr class="mb-3">
+    
+                        <p>2017 – 2021</p>
+                        <h5>STMIK AKAKOM Yogyakarta</h5>
+                        <hr>
+                    </div>
+                    <div class="experience mt-4">
+                        <h3 class="mb-4">Pengalaman</h3>
+                        <p class="fw-bolder">14 Febuari 2022 - 13 April 2022 (2 Bulan)</p>
+                        <p>PT. Visi Teguh Kreatif</p>
+                        <p>mengerjakan bagian frontend pada sebuah website</p>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="img/web1.PNG" class="d-block w-100">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="img/web2.PNG" class="d-block w-100">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="img/web3.PNG" class="d-block w-100">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                            <p class="card-text text-break fs-5 lh-lg font-monospace my-3">Aplikasi Manajemen Skripsi Untuk Jurusan Informatika menggunakan Codeigniter 4 di STMIK AKAKOM Yogyakarta</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Buka</button>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Modal -->
+    <section id="row-3" class="text-light">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center mb-5 fw-lighter">Project</h1>
+
+                <div class="col-lg col-md">
+                    <div class="card text-white bg-dark mb-4 mb-lg-0">
+                        <img src="img/template1.PNG" class="card-img-top img-fluid" alt="project 1">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder mb-3">Template Siakad</h5>
+                          <p class="card-text mb-3">Template Siakad STMIK Akakom Yogyakarta menggunakan Framework Css Bootstrap 4</p>
+                          <div class="tag-skill mb-3">
+                            <span class="badge bg-light text-dark">Html</span>
+                            <span class="badge bg-light text-dark">CSS</span>
+                            <span class="badge bg-light text-dark">Bootstrap 4</span>
+                          </div>
+
+                          <a href="https://ahtaum.github.io/template-siakadAkakom.github.io/" class="btn btn-outline-light" target="_blank">Go</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg col-md">
+                    <div class="card text-white bg-dark mb-4 mb-lg-0">
+                        <img src="img/web2.PNG" class="card-img-top img-fluid" alt="project 2">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder mb-3">Aplikasi Manajemen Skripsi</h5>
+                          <p class="card-text mb-3">Aplikasi Manajemen Skripsi Untuk Jurusan Informatika menggunakan Codeigniter 4 di STMIK AKAKOM Yogyakarta.</p>
+                          <div class="tag-skill mb-3">
+                            <span class="badge bg-light text-dark">Html</span>
+                            <span class="badge bg-light text-dark">CSS</span>
+                            <span class="badge bg-light text-dark">Bootstrap 4</span>
+                            <span class="badge bg-light text-dark">PHP</span>
+                            <span class="badge bg-light text-dark">Codeigniter 4</span>
+                          </div>
+
+                          <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Go</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title font-monospace"">Akun Login</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-break fs-5 lh-lg font-monospace">
-                    Username : admin <br>
-                    Password : 123456789
+                <div class="modal-body">
+                    <h3 class="text-center mb-3">Access</h3>
+                    <div class="text-nowrap"><span class="fw-bolder float-start px-2"><i class="bi bi-person"></i> Username :</span><p>admin</p></div>
+                    <div class="text-nowrap"><span class="fw-bolder float-start px-2"><i class="bi bi-file-lock"></i> Password :</span><p>123456789</p></div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary font-monospace" data-bs-dismiss="modal">Tutup</button>
-                    <a href="https://manajemenskripsiinformatika.000webhostapp.com/" class="btn btn-primary font-monospace">Buka</a>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+                    <a class="btn btn-primary" href="https://manajemenskripsiinformatika.000webhostapp.com/" target="_blank">Buka</a>
                 </div>
             </div>
         </div>
     </div>
-    
-    <footer class="mt-5"></footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
